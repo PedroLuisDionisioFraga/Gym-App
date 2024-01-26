@@ -1,0 +1,71 @@
+name: gym_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0-92.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_animate: ^4.1.1+1
+  url_launcher: ^6.2.2
+  http: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Backgrounds
+    - Assets/Images/background-initial-screen.png
+    - Assets/Images/background-login-signup.png
+    - Assets/Images/perfil-example.jpg
+    # Muscles
+    - Assets/Images/Muscles/antebraço.png
+    - Assets/Images/Muscles/biceps.png
+    - Assets/Images/Muscles/dorsal_inferior.png
+    - Assets/Images/Muscles/glúteos.png
+    - Assets/Images/Muscles/ombro.png
+    - Assets/Images/Muscles/panturrilha.png
+    - Assets/Images/Muscles/peito.png
+    - Assets/Images/Muscles/posterior_de_coxa.png
+    - Assets/Images/Muscles/posterior_de_ombro.png
+    - Assets/Images/Muscles/superior_de_costas.png
+    - Assets/Images/Muscles/trapézio.png
+    - Assets/Images/Muscles/triceps.png
+
+
+
+  fonts:
+    - family: Robot
+      fonts:
+        - asset: Assets/Fonts/Roboto/Roboto-Medium.ttf
+        - asset: Assets/Fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: Assets/Fonts/Roboto/Roboto-BoldItalic.ttf
+          weight: 800
+
+    - family: Lato
+      fonts:
+        - asset: Assets/Fonts/Lato/Lato-Regular.ttf
+        - asset: Assets/Fonts/Lato/Lato-Bold.ttf
+          weight: 700
+        - asset: Assets/Fonts/Lato/Lato-BoldItalic.ttf
+          weight: 800
+
+    - family: LexendDeca
+      fonts:
+        - asset: Assets/Fonts/Lexend-Deca/LexendDeca-Regular.ttf
+        - asset: Assets/Fonts/Lexend-Deca/LexendDeca-Light.ttf
+          weight: 300
+        - asset: Assets/Fonts/Lexend-Deca/LexendDeca-Bold.ttf
+          weight: 700
+
+

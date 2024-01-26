@@ -1,0 +1,7 @@
+# Solving: warning: in the working copy of '.metadata', LF will be replaced by CRLF the next time Git touches it
+* text=auto eol=lf
+# Ignoring this files when to validate a language of project
+ios/Runner/*.swift linguist-vendored
+ios/Runner/*.h linguist-vendored
+ios/RunnerTests/*.swift linguist-vendored
+android/app/src/main/kotlin/com/example/myproject/gym/gym_app/*.kt linguist-vendored
